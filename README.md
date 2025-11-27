@@ -79,13 +79,13 @@ Secure-Internal-Chatbot-Design/
 flowchart TD
 
     A[User Browser] --> B[Frontend UI]
-    B -->|POST /chat (token + question)| C[FastAPI Backend]
-    C -->|Validate Token| D{Token Valid?}
+    B -->|request| C[FastAPI Backend]
+    C -->|check token| D{Valid Token?}
 
-    D -- Yes --> E[Local Response Generator]
-    D -- No --> F[401 Unauthorized]
+    D -->|yes| E[Generate Response]
+    D -->|no| F[Return 401]
 
-    E --> G[Return JSON Response]
+    E --> G[Send Response]
     F --> G
 
-    G --> H[UI Displays Response]
+    G --> H[Display in UI]

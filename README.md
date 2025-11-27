@@ -78,14 +78,14 @@ Secure-Internal-Chatbot-Design/
 ```mermaid
 flowchart TD
 
-    A[User Browser] --> B[Frontend (HTML/CSS/JS)]
-    B -->|POST /chat\nToken + Question| C[FastAPI Backend]
+    A[User Browser] --> B[Frontend UI]
+    B -->|POST /chat (token + question)| C[FastAPI Backend]
     C -->|Validate Token| D{Token Valid?}
 
-    D -- Yes --> E[Generate Local Response]
-    D -- No --> F[Return 401 Unauthorized]
+    D -- Yes --> E[Local Response Generator]
+    D -- No --> F[401 Unauthorized]
 
-    E --> G[Send JSON Response]
+    E --> G[Return JSON Response]
     F --> G
 
-    G --> H[Frontend Displays Output]
+    G --> H[UI Displays Response]

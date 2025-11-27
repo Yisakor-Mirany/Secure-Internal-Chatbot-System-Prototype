@@ -1,0 +1,34 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Virtual environment folders
+env/
+venv/
+ENV/
+.venv/
+
+# MacOS system files
+.DS_Store
+
+# Python environment files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Uvicorn reload cache
+*.sqlite3
+*.db
+
+# Node modules (if frontend ever expands)
+node_modules/
+
+# Backup files
+*.bak
+*.old
+*.tmp

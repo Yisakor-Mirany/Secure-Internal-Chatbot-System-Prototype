@@ -70,3 +70,22 @@ Secure-Internal-Chatbot-Design/
 ├── index.html
 ├── script.js
 └── styles.css
+
+---
+
+## 🏗 System Architecture Diagram
+
+```mermaid
+flowchart TD
+
+    A[User Browser] --> B[Frontend (HTML/CSS/JS)]
+    B -->|POST /chat\nToken + Question| C[FastAPI Backend]
+    C -->|Validate Token| D{Token Valid?}
+
+    D -- Yes --> E[Generate Local Response]
+    D -- No --> F[Return 401 Unauthorized]
+
+    E --> G[Send JSON Response]
+    F --> G
+
+    G --> H[Frontend Displays Output]

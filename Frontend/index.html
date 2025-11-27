@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Secure Internal Chatbot Prototype</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h2>Secure Internal Chatbot (Prototype)</h2>
+
+        <!-- Token Section -->
+        <div class="section">
+            <label for="token">Enter Secure Token:</label>
+            <input type="password" id="token" placeholder="Enter access token" />
+        </div>
+
+        <!-- Question Section -->
+        <div class="section">
+            <label for="question">Your Question:</label>
+            <input type="text" id="question" placeholder="Ask something..." />
+            <button id="sendBtn">Send</button>
+        </div>
+
+        <!-- Response Area -->
+        <div class="section">
+            <h3>Chatbot Response:</h3>
+            <div id="responseBox" class="response-box"></div>
+        </div>
+
+        <!-- Error Display -->
+        <p id="errorMessage" class="error"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

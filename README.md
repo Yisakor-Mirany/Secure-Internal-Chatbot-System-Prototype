@@ -60,3 +60,13 @@ Invalid tokens return a **401 Unauthorized** error.
 ---
 
 ## 📂 Project Structure
+Secure-Internal-Chatbot-Design/
+│
+├── backend/
+│ ├── main.py
+│ └── requirements.txt
+│
+└── frontend/
+├── index.html
+├── script.js
+└── styles.css

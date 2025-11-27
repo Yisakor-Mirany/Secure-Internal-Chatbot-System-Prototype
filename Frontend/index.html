@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Internal Chatbot (Prototype)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="page-container">
+
+        <div class="card">
+            <h1 class="title">🔐 Secure Internal Chatbot</h1>
+            <p class="subtitle">(Prototype)</p>
+
+            <!-- Access Token -->
+            <div class="input-group">
+                <label for="token">Access Token</label>
+                <input type="password" id="token" placeholder="Enter your secure token">
+            </div>
+
+            <!-- Question -->
+            <div class="input-group">
+                <label for="question">Your Question</label>
+                <input type="text" id="question" placeholder="Ask something…">
+            </div>
+
+            <!-- Send Button -->
+            <button id="sendBtn" class="btn">Send</button>
+
+            <!-- Response -->
+            <h3 class="response-title">Response</h3>
+            <div id="responseBox" class="response-box"></div>
+
+            <!-- Error Message -->
+            <p id="errorMessage" class="error"></p>
+        </div>
+
+        <!-- Footer -->
+        <p class="footer-tag">Internal Use Only</p>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

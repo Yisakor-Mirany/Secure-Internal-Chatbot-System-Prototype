@@ -2,8 +2,8 @@
 
 ## Team Members
 - **Yisakor Mirany** – Frontend UI & Integration  
-- **[Teammate 2 Name]** – Backend & Security  
-- **[Teammate 3 Name]** – System Architecture & Documentation  
+- **Lindokuhle Ngobese** – Backend & Security  
+- **Asma Begum** – System Architecture & Documentation  
 
 ---
 

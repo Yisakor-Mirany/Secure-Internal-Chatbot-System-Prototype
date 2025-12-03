@@ -70,7 +70,7 @@ Invalid tokens return a **401 Unauthorized** error.
 
 3. Start the Backend Server
    - uvicorn main:app --reload
-  Backend will run at:
+   Backend will run at:
    - http://127.0.0.1:8000
 
 4. Open the Frontend

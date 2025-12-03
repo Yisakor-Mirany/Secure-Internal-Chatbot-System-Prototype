@@ -59,6 +59,29 @@ Invalid tokens return a **401 Unauthorized** error.
 
 ---
 
+##🚀 How to Run the Prototype
+1. Clone the Repository
+   git clone https://github.com/Yisakor-Mirany/Secure-Internal-Chatbot-System-Prototype.git
+   cd Secure-Internal-Chatbot-System-Prototype
+
+2. Install Backend Dependencies
+   Make sure you have Python 3.10+ installed.
+   - pip install -r requirements.txt
+
+3. Start the Backend Server
+   - uvicorn main:app --reload
+  Backend will run at:
+   - http://127.0.0.1:8000
+
+4. Open the Frontend
+   - Open index.html in your browser
+
+5. Use the Chatbot
+   - Enter your access token
+   - Type a question
+   - Click Send
+ 
+
 ## 📂 Project Structure
 Secure-Internal-Chatbot-Design/
 │

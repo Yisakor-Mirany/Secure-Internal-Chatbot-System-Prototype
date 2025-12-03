@@ -59,7 +59,7 @@ Invalid tokens return a **401 Unauthorized** error.
 
 ---
 
-##🚀 How to Run the Prototype
+## 🚀 How to Run the Prototype
 1. Clone the Repository
    git clone https://github.com/Yisakor-Mirany/Secure-Internal-Chatbot-System-Prototype.git
    cd Secure-Internal-Chatbot-System-Prototype
